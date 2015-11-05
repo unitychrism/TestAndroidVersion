@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class BuildPlayers {
 
-	public static void PostExportStep() {
+	public static void PreExportStep() {
 		PlayerSettings.Android.bundleVersionCode = 6789;
 	}
 
